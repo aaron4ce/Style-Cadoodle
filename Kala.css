@@ -866,3 +866,25 @@
 .menu-button:pressed .arrow {
     -fx-background-color: #edfafa; /* teal-mist */
 }
+
+
+
+.grid-key-color {
+    -fx-text-fill: #0000aa; /* logo-blue */
+}
+.grid-dark-color {
+    -fx-text-fill: #0838A8FF; /* logo-blue */
+}
+.grid-light-color {
+    -fx-text-fill: #2020608F; /* logo-blue */
+}
+.image-button-shape-pallet {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 3px;
+    -fx-background-insets: 1;
+}
+.image-button-shape-pallet:focused       { -fx-border-color: #f38ba8; }
+.image-button-shape-pallet:pressed       { -fx-background-color: #45475a; }
+.image-button-shape-pallet:hover         { -fx-background-color: #313244; }
+

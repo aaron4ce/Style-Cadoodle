@@ -9,6 +9,7 @@
 .label                      { -fx-text-fill: #cdd6f4; }
 
 
+
 /* ── Regular buttons ────────────────────────────────── */
 .button                                  { -fx-background-color: #313244; -fx-border-color: #89b4fa; -fx-border-width: 1px; -fx-border-radius: 4px; -fx-background-radius: 4px; -fx-text-fill: #cdd6f4; }
 .button:hover                            { -fx-background-color: #45475a; }
@@ -35,10 +36,8 @@
 .image-button-highlight:hover { -fx-background-color: #45475a; }
 
 
-}
-.text {
-    -fx-fill: #cdd6f4;
-}
+
+
 #memoryUsageText {
     -fx-fill: #cdd6f4;
 }
@@ -339,6 +338,27 @@
     -fx-background-color: #1e1e2e;
 }
 
+
+.grid-key-color {
+    -fx-text-fill: #ffffffaa; /* logo-blue */
+}
+.grid-dark-color {
+    -fx-text-fill: #FFFF0000; /* logo-blue */
+}
+.grid-light-color {
+    -fx-text-fill: #20206000; /* logo-blue */
+}
+
+.image-button-shape-pallet {
+    -fx-background-color: #cdd6f4AF;
+    -fx-border-color: transparent;
+    -fx-border-width:3px;
+    -fx-background-insets: 1;
+}
+.image-button-shape-pallet:focused       { -fx-border-color: #f38ba8; }
+.image-button-shape-pallet:pressed       { -fx-background-color: #45475a; }
+.image-button-shape-pallet:hover         { -fx-background-color: #313244; }
+
 #makeRobotButton .image-view     { -fx-image: url("dark/newRobot.png"); }
 #homeButton .image-view          { -fx-image: url("dark/CADoodleHome.png"); }
 .biglogo-cadoodle        		 { -fx-image: url("dark/biglogo.png"); }
@@ -403,3 +423,6 @@
 .moveObject  { -fx-image: url("dark/moveObject.png"); }
 .resizeObject  { -fx-image: url("dark/resizeObject.png"); }
 .bendSurface  { -fx-image: url("light/bend.png"); }
+
+
+

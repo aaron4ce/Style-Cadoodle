@@ -824,8 +824,7 @@
 .context-menu .menu-item > .right-container > .arrow { -fx-background-color: #ffffff; }
 
 /* ── Text nodes ─────────────────────────────────────── */
-.text { -fx-fill: #ffffff; }
-#memoryUsageText { -fx-fill: #ffffff; }
+
 
 /* ── Spinner ────────────────────────────────────────── */
 .spinner                                 { -fx-background-color: #cc0000; -fx-border-color: #ffffff; -fx-border-width: 1px; -fx-border-radius: 4px; }
@@ -876,3 +875,23 @@
 .menu-button:pressed .arrow {
     -fx-background-color: #111111; /* hc-black */
 }
+
+
+.grid-key-color {
+    -fx-text-fill: #ffffffaa; /* logo-blue */
+}
+.grid-dark-color {
+    -fx-text-fill: #FFFF0000; /* logo-blue */
+}
+.grid-light-color {
+    -fx-text-fill: #20206000; /* logo-blue */
+}
+.image-button-shape-pallet {
+    -fx-background-color: #ffffffaa;
+    -fx-border-color: transparent;
+    -fx-border-width:3px;
+    -fx-background-insets: 1;
+}
+.image-button-shape-pallet:focused       { -fx-border-color: #f38ba8; }
+.image-button-shape-pallet:pressed       { -fx-background-color: #45475a; }
+.image-button-shape-pallet:hover         { -fx-background-color: #313244; }
