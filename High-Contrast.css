@@ -881,10 +881,10 @@
     -fx-text-fill: #ffffffaa; /* logo-blue */
 }
 .grid-dark-color {
-    -fx-text-fill: #0838A800; /* logo-blue */
+    -fx-text-fill: #0838A804; /* logo-blue */
 }
 .grid-light-color {
-    -fx-text-fill: #20206000; /* logo-blue */
+    -fx-text-fill: #20206004; /* logo-blue */
 }
 .image-button-shape-pallet {
     -fx-background-color: #ffffffaa;
