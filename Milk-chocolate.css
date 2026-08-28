@@ -959,3 +959,20 @@
 .grid-light-color {
     -fx-text-fill: #d9c8ba42; /* grid plane/background: very light, slightly darker than v4, ~26% alpha */
 }
+
+/* ===== Navigation cube ===== */
+.nav-cube-surface-color {
+    -fx-text-fill: #cfe8f7; /* slightly darker light blue */
+}
+
+.nav-cube-edge-color {
+    -fx-text-fill: #82b9e6; /* a bit stronger/darker blue */
+}
+
+.nav-cube-corner-color {
+    -fx-text-fill: #263d8c; /* navy */
+}
+
+.nav-cube-corner-hover {
+    -fx-text-fill: #ff9a9a; /* lighter red so labels stay readable */
+}
