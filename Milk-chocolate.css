@@ -1,7 +1,7 @@
 /* ================================================================
  * Milk-chocolate theme for CaDoodle
  * Custom icons and advanced-mode logo are loaded from:
- *   milk-chocolate/
+ *   Milk-chocolate/
  * Expected files include:
  *   home.png, litBulb.png, darkBulb.png, magnet.png, trash.png,
  *   zoomIn.png, zoomOut.png, copy.png, paste.png, extrude.png,
@@ -10,7 +10,7 @@
 
 /* ===== MILK-CHOCOLATE CUSTOM ASSETS =====
  * Theme-specific replacement icons and the Advanced logo are loaded
- * from the "milk-chocolate" folder next to this CSS file.
+ * from the "Milk-chocolate" folder next to this CSS file.
  * ================================================================ */
 
 /* ===== BUTTON GRAPHICS via ImageView CSS ===== */
@@ -22,15 +22,15 @@
 #homeButton .image-view          { -fx-image: url("light/CADoodleHome.png"); }
 .biglogo-cadoodle        		 { -fx-image: url("light/biglogo.png"); }
 .biglogo-advanced {
-    -fx-image: url("milk-chocolate/biglogoAdvanced.png");
+    -fx-image: url("Milk-chocolate/biglogoAdvanced.png");
     -fx-fit-width: 145px;
     -fx-fit-height: 36px;
     -fx-preserve-ratio: true;
 }
-#homeViewButton .image-view      { -fx-image: url("milk-chocolate/home.png"); }
+#homeViewButton .image-view      { -fx-image: url("Milk-chocolate/home.png"); }
 #fitViewButton .image-view       { -fx-image: url("light/fit.png"); }
-#zoomInButton .image-view        { -fx-image: url("milk-chocolate/zoomIn.png"); }
-#zoomOutButton .image-view       { -fx-image: url("milk-chocolate/zoomOut.png"); }
+#zoomInButton .image-view        { -fx-image: url("Milk-chocolate/zoomIn.png"); }
+#zoomOutButton .image-view       { -fx-image: url("Milk-chocolate/zoomOut.png"); }
 #holeButton .image-view          { -fx-image: url("light/holes.png"); }
 #workplaneButton .image-view     { -fx-image: url("light/Sketcher.png"); }
 #rulerButton .image-view         { -fx-image: url("light/ruler.png"); }
@@ -38,19 +38,19 @@
 #searchButton .image-view        { -fx-image: url("light/search.png"); }
 .hexDistributeButtonImage { -fx-image: url("light/distribute.png"); }
 .boltHoleButtonImage-view     { -fx-image: url("light/boltHolePattern.png"); }
-.extrudeButton-image-view       { -fx-image: url("milk-chocolate/extrude.png"); }
+.extrudeButton-image-view       { -fx-image: url("Milk-chocolate/extrude.png"); }
 .filletButton-image-view        { -fx-image: url("light/fillet.png"); }
 #visbilityButton .image-view     { -fx-image: url("light/showMenu.png"); }
 .groupButton-image-view         { -fx-image: url("light/group.png"); }
 .ungroupButton-image-view       { -fx-image: url("light/ungroup.png"); }
 .alignButton-mage-view         { -fx-image: url("light/align.png"); }
 .mirronButton-image-view        { -fx-image: url("light/mirror.png"); }
-#cruiseButton .image-view        { -fx-image: url("milk-chocolate/magnet.png"); }
+#cruiseButton .image-view        { -fx-image: url("Milk-chocolate/magnet.png"); }
 #objectWorkplane .image-view     { -fx-image: url("light/workplaneToObject.png"); }
 #dropToWorkplane .image-view     { -fx-image: url("light/drop.png"); }
-#copyButton .image-view          { -fx-image: url("milk-chocolate/copy.png"); }
-.pasteButton-mage-view         { -fx-image: url("milk-chocolate/paste.png"); }
-.deleteButton-image-view        { -fx-image: url("milk-chocolate/trash.png"); }
+#copyButton .image-view          { -fx-image: url("Milk-chocolate/copy.png"); }
+.pasteButton-mage-view         { -fx-image: url("Milk-chocolate/paste.png"); }
+.deleteButton-image-view        { -fx-image: url("Milk-chocolate/trash.png"); }
 #undoButton .image-view          { -fx-image: url("light/back.png"); }
 #redoButton .image-view          { -fx-image: url("light/forward.png"); }
 #stl .image-view                 { -fx-image: url("light/Script-Tab-Stl.png"); }
@@ -67,11 +67,11 @@
 #type3mf .image-view             { -fx-image: url("light/3mf.png"); }
 #exportButton .image-view        { -fx-image: url("light/export-button.png"); }
 #newDoodle .image-view           { -fx-image: url("light/newFile.png"); }
-#copyDoodle .image-view          { -fx-image: url("milk-chocolate/copy.png"); }
+#copyDoodle .image-view          { -fx-image: url("Milk-chocolate/copy.png"); }
 #robotHeaderImage   { -fx-image: url("light/robot-3.png"); }
 .robot-tab-icon     { -fx-image: url("light/robot-3.png"); }
-.dark-bulb-icon      { -fx-image: url("milk-chocolate/darkBulb.png"); }
-.lit-bulb-icon      { -fx-image: url("milk-chocolate/litBulb.png"); }
+.dark-bulb-icon      { -fx-image: url("Milk-chocolate/darkBulb.png"); }
+.lit-bulb-icon      { -fx-image: url("Milk-chocolate/litBulb.png"); }
 .lock-icon         { -fx-image: url("light/lock.png"); }
 .unlock-icon         { -fx-image: url("light/unlock.png"); }
 .open-drawer              { -fx-image: url("light/drawerClose.png"); }
